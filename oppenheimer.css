@@ -70,7 +70,12 @@ html, body {
   text-align: center;
 }
 
-  
+  .credit {
+  font-size: 16px;
+  color: black;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
 .headlabel {
     color: black; /* Change the color to your preferred color */
 }

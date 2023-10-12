@@ -4,9 +4,9 @@ const playStopButton = document.getElementById('playStopButton');
 playStopButton.addEventListener('click', () => {
   if (audio.paused) {
     audio.play();
-    playStopButton.style.backgroundImage = "url('../PauseButton.png')";
+    playStopButton.style.backgroundImage = "url('../oppenheimer/PauseButton.png')";
   } else {
     audio.pause();
-    playStopButton.style.backgroundImage = "url('../PlayButton.png')";
+    playStopButton.style.backgroundImage = "url('../oppenheimer/PlayButton.png')";
   }
 });
